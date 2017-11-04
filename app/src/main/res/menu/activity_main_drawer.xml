@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_main"
+            android:icon="@drawable/main"
+            android:title="Main" />
+        <item
+            android:id="@+id/nav_activity"
+            android:icon="@drawable/activity"
+            android:title="Activity" />
+        <item
+            android:id="@+id/nav_tutorials"
+            android:icon="@drawable/tutorials"
+            android:title="Tutorials" />
+        <item
+            android:id="@+id/nav_glugs"
+            android:icon="@drawable/glugs"
+            android:title="GLUG(S)" />
+        <item
+            android:id="@+id/nav_contact"
+            android:icon="@drawable/contact"
+            android:title="Contact" />
+
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/about"
+            android:title="About" />
+
+    </group>
+
+
+</menu>
